@@ -155,3 +155,6 @@ section.content img
     opacity: 0.5;
     mix-blend-mode: overlay;
 }
+.fireworks {
+    position: fixed;
+}
