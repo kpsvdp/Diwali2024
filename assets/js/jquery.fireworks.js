@@ -273,3 +273,9 @@
     return fireworksField;
   };
 }(jQuery));
+
+if (options.sound) {
+    audio = new Audio('assets/audio/fireworks.mp3');
+    console.log('Playing sound'); // Log to confirm audio is being triggered
+    audio.play().catch(error => console.log('Audio play error:', error));
+}
